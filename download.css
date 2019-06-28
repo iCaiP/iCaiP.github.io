@@ -1,0 +1,172 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+code,
+del,
+dfn,
+em,
+img,
+q,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+caption,
+tbody,
+tfoot,
+thead {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	outline: none;
+	vertical-align: baseline;
+	list-style: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+	width: 100%;
+	background: #fcfcfe !important;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+button,
+input,
+textarea {
+	border: 0;
+	outline: none;
+}
+
+img {
+	width: 100%;
+}
+
+
+
+
+/*圆角为.5rem的元素*/
+.radius05rem {
+	border-radius: .5rem;
+	-webkit-border-radius: .5rem;
+}
+
+
+
+/*下边距.5rem*/
+.marginBottom {
+	margin-bottom: .5rem;
+}
+
+/*居中的图片*/
+.centerImg {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+}
+
+/*公共按钮的颜色*/
+.commonBk {
+	background: -webkit-linear-gradient(left,
+		#fa71cd,
+		#c471f5);
+	/* Safari 5.1 - 6.0 */
+	background: linear-gradient(to right, #fa71cd, #c471f5);
+	/* 标准的语法 */
+}
+
+
+
+
+
+#download {
+    height: 100vh;
+    background: #fcfcfe;
+}
+
+.p1,
+.p2 {
+    text-align: center;
+}
+
+.p1 {
+    font-size: 16px;
+    margin-bottom: 0.4rem;
+}
+
+.p2 {
+    font-size: 13px;
+    color: #999;
+}
+
+.an {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2.5rem;
+}
+
+button {
+    position: relative;
+    text-align: center;
+    border: 1px solid #df71e1;
+    padding: 0.85rem 0;
+    width: 47%;
+    font-size: 14px;
+}
+
+.an button * {
+    vertical-align: middle;
+}
+.an a{
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+
+.an .left {
+    color: #fff;
+    background: #df71e1;
+}
+
+.an button img {
+    width: 1.5rem;
+    margin-right: 0.3rem;
+}
